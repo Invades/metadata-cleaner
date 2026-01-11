@@ -1,8 +1,8 @@
 services:
   metadata-cleaner:
-    build: .
+    image: ghcr.io/invades/metadata-cleaner:latest
     container_name: metadata-cleaner
     restart: unless-stopped
     volumes:
-      - ./config/metadata-cleaner:/data
+      - ./config/metadata-cleaner:/data # Replace with your desired config path
       - /path/to/music:/data/music:rw  # Replace /path/to/music with the path to your local music directory
