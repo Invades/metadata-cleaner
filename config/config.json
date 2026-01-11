@@ -1,0 +1,8 @@
+{
+    "watch_directories": [
+        "/data/music"
+    ],
+    "recursive": true,
+    "dry_run": false,
+    "scan_interval_ms": 5000
+}

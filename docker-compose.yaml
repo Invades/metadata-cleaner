@@ -1,0 +1,8 @@
+services:
+  metadata-cleaner:
+    build: .
+    container_name: metadata-cleaner
+    restart: unless-stopped
+    volumes:
+      - ./config/metadata-cleaner:/data
+      - /path/to/music:/data/music:rw  # Replace /path/to/music with the path to your local music directory
