@@ -139,10 +139,6 @@ volumes:
   - /path/to/music:/data/music:rw
 ```
 
-## License
-
-MIT
-
 ## Acknowledgments
 
 - [TagLib](https://taglib.org/) - Audio metadata library
